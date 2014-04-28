@@ -29,7 +29,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 import ctypes
 
-sodium = ctypes.cdll.LoadLibrary("libsodium.so")
+sodium = ctypes.cdll.LoadLibrary("libsodium")
 crypto_box_NONCEBYTES = 24L
 crypto_box_PUBLICKEYBYTES = 32L
 crypto_box_SECRETKEYBYTES = 32L
